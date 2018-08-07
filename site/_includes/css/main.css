@@ -60,6 +60,11 @@ header .intro-text .name {
     font-weight: 700;
 }
 
+.navbar-brand {
+    padding: 0;
+    marging: 0;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -79,19 +84,8 @@ header .intro-text .name {
         transition: padding .3s;
     }
 
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
     }
 }
 
