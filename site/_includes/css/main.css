@@ -21,8 +21,11 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
-    color: #{{ site.color.secondary }};
+    color: #fff;
+}
+
+.email {
+    font-size: 2em;
 }
 
 h1,
