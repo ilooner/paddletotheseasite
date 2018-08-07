@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
@@ -70,6 +70,11 @@ header .intro-text .name {
     filter: drop-shadow(2px 2px #000);
 }
 
+.logoimage {
+    width: 80px;
+    height: 40px;
+}
+
 .navbar-brand {
     padding: 0;
     marging: 0;
@@ -79,13 +84,23 @@ header .intro-text .name {
     header .container {
         min-height: 400px;
     }
+
+    .logoimage {
+        width: 140px;
+        height: 70px;
+    }
 }
 
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
-        min-height: 600px;
+        min-height: 500px;
+    }
+
+    .logoimage {
+        width: 200px;
+        height: 100px;
     }
 }
 
@@ -100,6 +115,10 @@ header .intro-text .name {
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
+}
+
+.bar {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(102,116,236,1) 0%, rgba(50,231,219,1) 90% );
 }
 
 .navbar {
@@ -126,7 +145,7 @@ header .intro-text .name {
 }
 
 section {
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 section h2 {
@@ -399,8 +418,8 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+.navbar-nav a:hover,a:focus {
+    color: #{{ site.color.secondary }} !important;
 }
 
 /* Fix modal mouse wheel issues */
