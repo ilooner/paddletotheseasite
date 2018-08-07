@@ -39,12 +39,18 @@ h6 {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+}
+
+header .headerimage {
+    background-image: url("{{ site.header_image | relative_url }}");
+    background-size:cover;
+    background-position: center center;
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+    min-height: 300px;
 }
 
 header img {
@@ -56,8 +62,12 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #000);
 }
 
 .navbar-brand {
@@ -65,14 +75,17 @@ header .intro-text .name {
     marging: 0;
 }
 
+@media(min-width: 500px) {
+    header .container {
+        min-height: 400px;
+    }
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
+        min-height: 600px;
     }
 }
 

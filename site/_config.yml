@@ -8,6 +8,7 @@ keywords: "your keywords, separated by commas"
 logo_width: 200
 logo_height: 100
 logo_image: "/assets/images/paddleboat.svg"
+header_image: "/assets/images/beachlife.jpg"
 
 # Google webmaster tools
 google_verify:

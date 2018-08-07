@@ -11,7 +11,7 @@
                 </button>
                 <a class="navbar-brand" href="#page-top">
                     {% if site.logo_image %}
-                        <img src="{{ site.logo_image }}"
+                        <img src="{{ site.logo_image | relative_url }}"
                         {% if site.logo_width %}
                             width="{{ site.logo_width }}"
                         {% endif %}
