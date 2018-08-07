@@ -46,7 +46,12 @@ header {
 }
 
 header .headerimage {
-    background-image: url("{{ site.header_image | relative_url }}");
+    background:
+            linear-gradient(
+                    rgba(66, 134, 244, 0.35),
+                    rgba(66, 134, 244, 0.35)
+            ),
+            url("{{ site.header_image | relative_url }}");
     background-size:cover;
     background-position: center center;
 }
@@ -66,12 +71,8 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
-    background: #ffffff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px #000);
 }
 
 .logoimage {
@@ -105,6 +106,10 @@ header .intro-text .name {
     .logoimage {
         width: 200px;
         height: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
     }
 }
 
