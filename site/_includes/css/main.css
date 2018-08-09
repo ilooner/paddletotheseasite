@@ -46,12 +46,7 @@ header {
 }
 
 header .headerimage {
-    background:
-            linear-gradient(
-                    rgba(66, 134, 244, 0.35),
-                    rgba(66, 134, 244, 0.35)
-            ),
-            url("{{ site.header_image | relative_url }}");
+    background: url("{{ site.header_image | relative_url }}");
     background-size:cover;
     background-position: center center;
 }
@@ -124,10 +119,6 @@ header .intro-text .name {
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-}
-
-.bar {
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(102,116,236,1) 0%, rgba(50,231,219,1) 90% );
 }
 
 .navbar {
