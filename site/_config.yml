@@ -26,6 +26,20 @@ color:
 # Footer settings
 footer:
 
+properties:
+ - title: "The Property"
+   coverimage: '/assets/images/doorprop.jpg'
+   fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157696702211122'
+ - title: "Pet Friendly Cottage"
+   coverimage: '/assets/images/doorpet.jpg'
+   fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157696701339922'
+ - title: "Sweetheart's Nest"
+   coverimage: '/assets/images/doornest.jpg'
+   fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157671996143768'
+ - title: 'The Bungalow'
+   coverimage: '/assets/images/doorbungalow.jpg'
+   fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157669839538337'
+
 stylesheets:
  - 'https://fonts.googleapis.com/css?family=Satisfy'
 
