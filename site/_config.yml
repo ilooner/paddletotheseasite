@@ -32,12 +32,15 @@ properties:
  - title: 'The Bow'
    fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157669839538337'
    airbnbid: 27526763
+   scrollid: bow
  - title: 'The Deck'
    fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157671996143768'
    airbnbid: 27115897
+   scrollid: deck
  - title: 'The Stern'
    fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157696701339922'
    airbnbid: 27115289
+   scrollid: stern
 
 stylesheets:
  - 'https://fonts.googleapis.com/css?family=Satisfy'

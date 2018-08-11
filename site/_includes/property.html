@@ -1,36 +1,22 @@
 <section id="property">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="sectiontitle">The Property</h2>
-            </div>
-        </div>
-        <div class="row">
-            {% capture airbnbid1 %}
-                {{ site.properties[0].airbnbid }}
-            {% endcapture %}
-            {% capture title1 %}
-                {{ site.properties[0].title }}
-            {% endcapture %}
-            {% include airbnblisting.html airbnbid=airbnbid1 title=title1 %}
-            {% capture airbnbid2 %}
-                {{ site.properties[1].airbnbid }}
-            {% endcapture %}
-            {% capture title2 %}
-                {{ site.properties[1].title }}
-            {% endcapture %}
-            {% include airbnblisting.html airbnbid=airbnbid2 title=title2 %}
+            {% capture airbnbid1 %}{{ site.properties[0].airbnbid }}{% endcapture %}
+            {% capture title1 %}{{ site.properties[0].title }}{% endcapture %}
+            {% capture scrollid1 %}{{ site.properties[0].scrollid }}{% endcapture %}
+            {% include airbnblisting.html airbnbid=airbnbid1 title=title1 scrollid=scrollid1 %}
+            {% capture airbnbid2 %}{{ site.properties[1].airbnbid }}{% endcapture %}
+            {% capture title2 %}{{ site.properties[1].title }}{% endcapture %}
+            {% capture scrollid2 %}{{ site.properties[1].scrollid }}{% endcapture %}
+            {% include airbnblisting.html airbnbid=airbnbid2 title=title2 scrollid=scrollid2 %}
         </div>
         <div class="row">
             <div class="col-sm-3">
             </div>
-            {% capture airbnbid3 %}
-                {{ site.properties[2].airbnbid }}
-            {% endcapture %}
-            {% capture title3 %}
-                {{ site.properties[2].title }}
-            {% endcapture %}
-            {% include airbnblisting.html airbnbid=airbnbid3 title=title3 %}
+            {% capture airbnbid3 %}{{ site.properties[2].airbnbid }}{% endcapture %}
+            {% capture title3 %}{{ site.properties[2].title }}{% endcapture %}
+            {% capture scrollid3 %}{{ site.properties[2].scrollid }}{% endcapture %}
+            {% include airbnblisting.html airbnbid=airbnbid3 title=title3 scrollid=scrollid3 %}
             <div class="col-sm-3">
             </div>
         </div>
