@@ -10,6 +10,8 @@ logo_height: 100
 logo_image: "/assets/images/paddleboat.svg"
 header_image: "/assets/images/beachlife.jpg"
 
+favicon: "/assets/images/paddlefavicon.png"
+
 # Google webmaster tools
 google_verify:
 
