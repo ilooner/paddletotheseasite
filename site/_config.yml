@@ -24,7 +24,9 @@ color:
   secondary-dark: 233140 #A2122F
 
 # Footer settings
-footer:
+social:
+  - title: facebook-square
+    url: https://www.facebook.com/paddletotheseacottages
 
 properties:
  - title: 'The Bow'
