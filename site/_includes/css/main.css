@@ -258,7 +258,3 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
-
-.navbar-nav a:hover,a:focus {
-    color: #{{ site.color.secondary }} !important;
-}
