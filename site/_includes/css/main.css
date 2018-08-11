@@ -258,3 +258,11 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+
+.partnericon {
+    transition: box-shadow .3s;
+
+}
+.partnericon:hover {
+    box-shadow: 0 0 20px 10px rgba(255,255,255,1);
+}
