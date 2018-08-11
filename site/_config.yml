@@ -29,10 +29,13 @@ footer:
 properties:
  - title: 'The Bow'
    fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157669839538337'
- - title: "The Deck"
+   airbnbid: 27526763
+ - title: 'The Deck'
    fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157671996143768'
- - title: "The Stern"
+   airbnbid: 27115897
+ - title: 'The Stern'
    fickerurl: 'https://www.flickr.com/photos/158758305@N08/albums/72157696701339922'
+   airbnbid: 27115289
 
 stylesheets:
  - 'https://fonts.googleapis.com/css?family=Satisfy'
