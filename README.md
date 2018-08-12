@@ -1,3 +1,7 @@
+## Live Site
+
+See the live site at [https://paddletotheseacottages.com/](https://paddletotheseacottages.com/).
+
 ## Installing Deps
 
 ```
