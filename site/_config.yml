@@ -49,10 +49,12 @@ stylesheets:
 
 # Analytics
 analytics:
-  provider               : "google-gtag"
+  provider: 'google-gtag'
   google:
-    tracking_id          : "UA-123805982-1"
-    anonymize_ip         : false
+    tracking_id: 'UA-123805982-1'
+    anonymize_ip: false
+    gtm:
+      tracking_id: 'GTM-MSFMQ3H'
 
 # Build settings
 markdown: kramdown
