@@ -23,7 +23,14 @@ cd site
 bundle exec jekyll serve
 ```
 
-## AWS Deployment
+## Deploying To Production
+
+```
+JEKYLL_ENV=production bundle exec jekyll build
+s3_website push
+```
+
+## AWS Deployment References
 
  - [S3 Jekyll Push Tutorial](https://www.josephecombs.com/2018/03/05/how-to-make-an-AWS-S3-static-website-with-ssl)
  - [AWS Cloudfront S3 Tutorial](https://8thlight.com/blog/sarah-sunday/2018/02/14/making-a-static-website-with-jekyll-and-s3.html)

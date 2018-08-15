@@ -48,6 +48,7 @@ s3_bucket: paddletotheseacottages.com
 
 # cloudfront_invalidate_root: true
 
+cloudfront_distribution_id: E1SD77N9PJN6M4
 cloudfront_wildcard_invalidation: true
 
 # concurrency_level: 5
