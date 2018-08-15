@@ -55,6 +55,9 @@ analytics:
     anonymize_ip: false
     gtm:
       tracking_id: 'GTM-MSFMQ3H'
+  facebook:
+    pixel:
+      tracking_id: '274427976694378'
 
 # Build settings
 markdown: kramdown

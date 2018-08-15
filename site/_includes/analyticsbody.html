@@ -1,4 +1,4 @@
-{% if jekyll.environment == 'production' and site.analytics.google.gtm %}
+{% if jekyll.environment == 'production' and page.analytics != false and site.analytics.google.gtm %}
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.analytics.google.gtm.tracking_id }}"
