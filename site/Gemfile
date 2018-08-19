@@ -4,6 +4,11 @@ gem "jekyll", "~> 3.8.3"
 gem "freelancer-theme-jekyll"
 gem "s3_website"
 
+# Jekyll Assets
+gem "sprockets", "~> 4.0.beta"
+gem "uglifier"
+gem "jekyll-assets", group: :jekyll_plugins
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
