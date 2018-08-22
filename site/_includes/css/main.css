@@ -147,7 +147,7 @@ header .intro-text .name {
 }
 
 section {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 section h2 {
@@ -163,16 +163,6 @@ section.success {
 section.flights {
     color: #fff;
     background: #153064;
-}
-
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
 }
 
 .airbnbwidget {
