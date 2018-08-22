@@ -171,12 +171,6 @@ section.flights {
     max-width:426px;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
