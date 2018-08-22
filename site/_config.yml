@@ -62,4 +62,4 @@ permalink: pretty
 
 webrick:
   headers:
-    Content-Security-Policy: "frame-src https://www.airbnb.com/; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.airbnb.com; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; default-src 'self' https://www.google-analytics.com 'unsafe-inline'"
+    Content-Security-Policy: "frame-src https://www.airbnb.com/ https://www.google.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.airbnb.com; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; default-src 'self' https://www.google-analytics.com 'unsafe-inline'"

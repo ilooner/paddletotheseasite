@@ -271,3 +271,19 @@ footer .footer-below {
 .partnericon:hover {
     box-shadow: 0 0 20px 10px rgba(255,255,255,1);
 }
+
+.googlemap_container {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 60%; /* aspect ratio */
+    position: relative;
+}
+
+.googlemap {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
